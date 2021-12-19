@@ -10,7 +10,7 @@ Welcome to DiMA Help Page's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-    myfile.md
+   myfile.md
 
 Table of contents
 ==================
