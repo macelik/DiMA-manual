@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
+Welcome to DiMA Help Page's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**DiMA** is designed to facilitate the dissection of protein sequence diversity dynamics for viruses. DiMA provides a quantitative measure of sequence diversity by use of Shannon’s entropy, applied via a user-defined kmer sliding window. Further, the entropy value is corrected for sample size bias by applying a statistical adjustment. Additionally, DiMA further interrogates the diversity by dissecting the entropy value at each kmer position to various diversity motifs. The distinct kmer sequences at each position are classified into the following motifs based on their incidence. Index is the predominant sequence, and all other distinct kmers are referred to as total variants, sub-classified into major variant (the predominant variant), minor variants (kmers with the incidence in between major and unique motifs) and unique variants (seen once in the alignment). Moreover, the description line of the sequences in the alignment can be formatted for inclusion of meta-data that can be tagged to the diversity motifs. DiMA enables comparative diversity dynamics analysis, within and between proteins of a virus species, and proteomes of different viral species.
 
 .. note::
 
