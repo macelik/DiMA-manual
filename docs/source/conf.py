@@ -31,7 +31,6 @@ release = '..'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'myst_parser',
     'sphinx_rtd_theme',
 ]
 
