@@ -1,2 +1,3 @@
 sphinx-jsonschema
 sphinx-tabs
+sphinx.builders.latex
