@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'DiMA'
+copyright = '2021, Shan Tharanga'
+author = 'Shan Tharanga,Name List, Mohammad Asif Khan'
 
 release = '0.1'
 version = '0.1.0'
@@ -12,11 +12,14 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'sphinx_rtd_theme',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx-jsonschema',
+    'sphinx_tabs.tabs'
 ]
 
 intersphinx_mapping = {
@@ -25,6 +28,7 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
+html_static_path = ['_static']
 templates_path = ['_templates']
 
 # -- Options for HTML output
