@@ -17,4 +17,3 @@ Table of contents
 
 .. _letsbegin:
 .. include:: myfile.md
-   :parser: myst_parser.sphinx_
