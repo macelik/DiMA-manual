@@ -1,3 +1,4 @@
 sphinx-jsonschema
 sphinx-tabs
+myst-parser
 sphinx.builders.latex
