@@ -9,6 +9,7 @@ Welcome to DiMA Help Page's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
     myfile.md
 
 Table of contents
